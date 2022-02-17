@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color:white;
+    color: rgb(10, 82, 43);
+    /*font-size: 16px;   размер шрифта
+    font-weight: 600;  жирность шрифта
+    font-family: 'Roboto', sans-serif; */
+
+    font: 600 16px 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline ;
+}
+
+a:active {
+    color: chartreuse ;
+}
+
+a:visited {
+    color: rgb(62, 165, 165) ;
+}
+
+.ava {
+    width: 280px;
+    border-radius: 30%;
+}
+.info {
+    margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display:block;
+    }
+}
+    
+.allSite {
+    background-color:rgb(243, 240, 255);
+    max-width: 45%;
+    margin: auto;
+}
+
+.bg-yellow {
+ background: #fff9dc;
+}
+
+.bg-green {
+background: #e5ffe7;
+}
+
+.bg-red {
+ background: #ffe5e5;
+}
+
+.bg-purple {
+    background: #ffe5f7;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+ }
+.shapka {
+    display: flex;
+    margin-bottom: 20px;
+    }
+.table {
+    width: 50%;
+}
+.table td {
+   padding-bottom: 8px;
+}
+.table td:nth-child(2), table td:nth-child(3) {
+    color: rgb(138, 135, 135);
+}
+.link-list {
+    list-style: none;
+    padding: 0%;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    outline: none;
+    font-size: 15px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    border: none;
+    /* background: transparent; */
+    color: black;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.click {
+    background: black;
+   color:white; 
+   padding: 15px 20px;
+   border: none;
+   cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
